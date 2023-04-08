@@ -1,0 +1,51 @@
+
+.header	{
+}
+
+.header__slider{
+	&-item{
+		height: 100vh;
+		background-image: url('@img/header-bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		position: relative;
+	}
+}
+
+.slider-item__info{
+	position: absolute;
+	right: rem(80);
+	bottom: rem(116);
+	text-align: right;
+	text-transform: uppercase;
+	&-subtitle{
+		&:not(:last-child){
+			margin-bottom: rem(5);
+		}
+	}
+	&-title{
+		font-weight: 800;
+		font-size: rem(80);
+		line-height: percent(86, 80);
+		&:not(:last-child){
+			margin-bottom: rem(48);
+		}
+	}
+	&-subtext{
+		&:not(:last-child){
+			margin-bottom: rem(8);
+		}
+	}
+	&-text{
+		font-weight: 800;
+		font-size: rem(40);
+		line-height: percent(50,40);
+		&:not(:last-child){
+			margin-bottom: rem(20);
+		}
+	}
+	&-link{
+		display: inline-block;
+	}
+}

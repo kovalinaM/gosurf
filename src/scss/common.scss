@@ -1,0 +1,22 @@
+// Заголовки, общие БЄМ блоки и проче...
+.subtitle-left{
+    font-size:rem(22);
+    line-height:percent(32, 22);
+    text-align: right;
+    letter-spacing: 7.33333px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    padding-left: rem(103);
+    position: relative;
+    display: inline-block;
+    &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: rem(80);
+        height: rem(1);
+        background: #FFFFFF;
+        opacity: 0.5;
+    }
+}
