@@ -13,7 +13,13 @@ $(function(){
         speed: 500,
         fade: true,
         cssEase: 'linear',
-        prevArrow: '<img class="slider-arrows slider-arrows-left" src="img/arrows-left.svg" alt="">',
-        nextArrow: '<img class="slider-arrows " src="img/arrows-right.svg" alt="">'
+        prevArrow: '<img class="slider__arrows slider__arrows_left" src="img/arrows-left.svg" alt="">',
+        nextArrow: '<img class="slider__arrows slider__arrows_right" src="img/arrows-right.svg" alt="">',
+        asNavFor: '.slider-dotts'
+    });
+    $('.slider-dotts').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        asNavFor: '.header__slider'
     });
 });
