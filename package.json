@@ -18,6 +18,7 @@
 		"bem": "fls-bemtree-from-html"
 	},
 	"devDependencies": {
+		"animate.css": "^4.1.1",
 		"copy-webpack-plugin": "latest",
 		"css-loader": "latest",
 		"del": "latest",

@@ -1,3 +1,14 @@
 //====================================================================================================
-
+.surf{
+    padding: rem(160) 0 rem(210) 0;
+    background-image: url('img/surf-bg.svg');
+    background-position: right 150px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    &__subtitle{
+        text-align: right;
+        padding-right: rem(80);
+        margin-top: rem(-40);
+    }
+}
 //====================================================================================================

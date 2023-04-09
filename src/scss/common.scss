@@ -1,5 +1,5 @@
 // Заголовки, общие БЄМ блоки и проче...
-.subtitle-left{
+.headline-left{
     font-size:rem(22);
     line-height:percent(32, 22);
     text-align: right;
@@ -19,4 +19,54 @@
         background: #FFFFFF;
         opacity: 0.5;
     }
+}
+
+.subtitle{
+    text-transform: uppercase;
+    text-align: right;
+    display: inline-block;
+    &-head{
+        font-weight: 800;
+        font-size: rem(40);
+        line-height: 86px;
+        padding-right: rem(10);
+        span{
+            font-weight: 100;
+        }
+    }   
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: 800;
+    span{
+        font-size: rem(200);
+        line-height: 106px;
+        color: rgba(255,255,255,0.02);
+        position: relative;
+        display: inline-block;
+        transform: translateX(-50px);
+    }
+    h3{
+        font-size: rem(80);
+        position: absolute;
+        top: -60px;
+        right: rem(-5);
+        display: inline-block;
+        color: #fff;
+        &:after{
+            content: '';
+            position: absolute;
+            width: rem(80);
+            height: rem(1);
+            right: 0;
+            top: 0;
+            background: #4AF6CD;
+        }
+    }
+}
+
+.container{
+    max-width: rem(1920);
+    margin: 0 auto;
 }
