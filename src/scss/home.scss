@@ -13,13 +13,20 @@
 }
 //====================================================================================================
 .surf-slider {
+    padding-top: rem(110);
+    .slider__arrows {
+        top: rem(50);
+        opacity: 0.25;
+    }
 }
 .surf-box {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: rem(750);
 	&__inner {
+        min-height: rem(750);
+        background: rgba(#1C2121, 0.85);
+        position: relative;
 	}
 
 	&__inner-title {
